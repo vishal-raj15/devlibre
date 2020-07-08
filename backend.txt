@@ -1,0 +1,16 @@
+This is a note for the backend project in javascript 
+
+REST : when ever we surf a good website they may have been using rest, which means 
+    that -> respresentation state response
+    things like -> creating deleting reading updating or stuf like these.
+
+we use actions like get post act put delete
+
+MVC:
+. how user get data -> requesting to controller(which handles request)
+controller -> model to get data -> view handle representation.
+
+
+using router folder to manage controllers.
+
+EJS files are more simpler to handle a single html boiler plate rather than mulptiple html pages
