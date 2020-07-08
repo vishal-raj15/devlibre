@@ -25,17 +25,6 @@ useNewUrlParser: true,
 .catch(err => console.log('DB Connection Error:',err)
 );
 
-// mongoose.connect('mongodb+srv: {process.env.DATABASE_URL }',{ 
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true,
-
-// })
-
-// const db = mongoose.connection
-// db.on('error', error => console.log(error))
-// db.once('open' , () => console.log('Connected to mongoose'))
-
-
 
 app.use('/',indexRouter)
 
